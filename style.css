@@ -111,7 +111,20 @@ legend {
     font-family: 'isocpeur';
     src: url(src/fonts/isocpeur.ttf);
 }
-
+@font-face {
+	font-family: 'isocpeur'; 
+	src: local('Font Name'),
+		url(src/fonts/isocpeur.ttf); 
+}
+@font-face {
+    font-family: 'isocpeur';
+    src: url(/src/fonts/isocpeur.ttf);
+}
+@font-face {
+	font-family: 'isocpeur'; 
+	src: local('Font Name'),
+		url(/src/fonts/isocpeur.ttf); 
+}
 /* стили */
 body {
     font-family: 'isocpeur';
